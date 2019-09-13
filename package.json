@@ -1,0 +1,22 @@
+{
+  "name": "search-engine",
+  "version": "1.0.0",
+  "description": "Search Engine for JSON files",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage && codecov"
+  },
+  "author": "Muhammad Umar",
+  "license": "MIT",
+  "keywords": [
+    "search engine",
+    "search in json",
+    "search in json by key",
+    "search",
+    "json"
+  ],
+  "devDependencies": {
+    "codecov": "^3.5.0",
+    "jest": "^24.9.0"
+  }
+}
