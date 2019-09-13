@@ -18,6 +18,9 @@ test('search within the whole JSON', () => {
           "lng": "81.1496"
         }
       },
+      "nationalities": [
+        "ir"
+      ],
       "phone": "1-770-736-8031 x56442",
       "website": "hildegard.org",
       "tags": [
@@ -76,6 +79,9 @@ test('search by value by specific key within JSON', () => {
           "lng": "81.1496"
         }
       },
+      "nationalities": [
+        "ir"
+      ],
       "phone": "1-770-736-8031 x56442",
       "website": "hildegard.org",
       "tags": [
@@ -106,7 +112,8 @@ test('search by value by specific key within JSON', () => {
   const searchKeywords = [
     "@name:Leanne Graham", // search in level 1
     "@city:Gwenborough", // search in level 2
-    "@bs:harness real-time e-markets 2" // search in array
+    "@bs:harness real-time e-markets 2", // search in array
+    "@nationalities:ir" // search in array
   ]
 
   searchKeywords.forEach(testItem => {

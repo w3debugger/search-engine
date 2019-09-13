@@ -41,13 +41,11 @@ function searchEngine(data, query) {
       if (Array.isArray(value)) {
         if (
           (
-          //   ## temporarily disabling feature
-          //   -----------------------------
-          //   getValueFromSearch &&
-          //   searchByKey &&
-          //   searchByKey === key &&
-          //   value.filter(el => search(el, getValueFromSearch)).length > 0
-          // ) || (
+            getValueFromSearch &&
+            searchByKey &&
+            searchByKey === key &&
+            value.filter(el => search(el, getValueFromSearch)).length > 0
+          ) || (
             value.filter(el => search(el, enrichquery)).length > 0
           )
         ) {
