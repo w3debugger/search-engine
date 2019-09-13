@@ -1,8 +1,8 @@
-# mulk
+# Search Engine
 
-[![npm](https://badge.fury.io/js/mulk.svg)](https://www.npmjs.com/package/mulk)
-[![](https://img.shields.io/travis/w3debugger/mulk/master.svg?style=flat-square)](http://travis-ci.org/w3debugger/mulk)
-[![](https://img.shields.io/codecov/c/github/w3debugger/mulk.svg?style=flat-square)](http://travis-ci.org/w3debugger/mulk)
+[![npm](https://badge.fury.io/js/search-engine.svg)](https://www.npmjs.com/package/search-engine)
+[![](https://img.shields.io/travis/w3debugger/search-engine/master.svg?style=flat-square)](http://travis-ci.org/w3debugger/search-engine)
+[![](https://img.shields.io/codecov/c/github/w3debugger/search-engine.svg?style=flat-square)](http://travis-ci.org/w3debugger/search-engine)
 
 
 > Seach Engine for JSON object
