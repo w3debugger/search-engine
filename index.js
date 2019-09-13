@@ -1,5 +1,3 @@
-const users = require('./__tests__/users');
-
 /**
  * Seach anything within JSON object
  *

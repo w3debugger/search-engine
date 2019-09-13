@@ -1,5 +1,5 @@
 const searchEngine = require('../index');
-const users = require('./users');
+const users = require(`${__dirname}/users.json`);
 
 test('search within the whole JSON', () => {
   const expectedFieldValue = [
